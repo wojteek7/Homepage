@@ -1,0 +1,16 @@
+.list {
+    background-color: #e5d2b3;
+    padding: 10px;
+    position: relative;
+    box-shadow: 5px 10px 5px 0px #A06300
+}
+
+.list__item {
+    margin-left: 10px;
+    list-style:decimal;
+}
+
+.list__item--unordered {
+ padding: 2px;
+ list-style: circle;
+}

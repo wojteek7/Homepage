@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: rgb(0, 0, 0);
+    background: url("../pictures/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    line-height: 1.2;
+}
+
+
+
+.section {
+    padding: 5px;
+    background-color: #e5d2b3;
+    position: relative;
+    box-shadow: 5px 10px 5px 0px #A06300;
+
+}
+
+.dark {
+    background: url("../pictures/backgrounddark.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    ;
+    color: rgb(232, 0, 0);
+}
+
+.section__title {
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.flex {
+    border: 5px solid;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+}
+
+.flex__item {
+    padding: 10px;
+    background: #A06301;
+    color: #e5d2b3;
+    margin: 10px;
+    flex: 1 1 auto;
+    align-items: center;
+}

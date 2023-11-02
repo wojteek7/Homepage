@@ -1,0 +1,16 @@
+.navigation {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navigation__list {
+
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.navigation__link:hover {
+    background-color: #cdcdcd;
+    
+}

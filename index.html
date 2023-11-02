@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moja Strona</title>
+    <meta property="og:image" content="pictures/share.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/button.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <link href="css/list.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+
+
+
+    <script defer src="js/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <button class="button js-button__theme">
+      Włącz <span class="js-themeName">ciemny</span> motyw
+    </button>
+    <header class="header">
+      <h1 class="header__title">Wojciech Dziugieł</h1>
+    </header>
+    <nav class="navigation flex">
+      <a class="flex__item" href="#o-mnie"> O mnie</a>
+      <a class="flex__item" href="#drony"> Drony</a>
+      <a class="flex__item flex__item--last" href="#gry-komputerowe">
+        Gry Komputerowe</a
+      >
+    </nav>
+    <main>
+      <button class="button js-button__description">
+        <span class="js-toggleDescription">Ukryj</span> opis
+      </button>
+      <p class="section">
+        Aktualnie jestem 31 latkiem, który szuka ścieżki kariery, którą chciałby
+        podążać. Padło na programowanie, jako przyszłościowa dziedzina w której
+        liczy się zarówno kreatywność oraz logiczne myślenie.<br />Dodatkową
+        motywacją, która pomaga dążyć do dalego rozwoju jest mój syn, co prawda
+        przyjdzie na świat w kwietniu ale zarówno bezpieczeństwo jego jak i
+        mojej partnerki jest dla mnie priorytetem. <br />W wolnych chwilach
+        lubię pograć na komputerze a także polatać dronem.
+      </p>
+      <section>
+        <h2 id="drony" class="section__title">Drony</h2>
+        <p class="section">
+          W wolnych chwilach lubię nagrywać filmy dronem, zajęcie to wymaga
+          przygotowania teoretycznego a także sprzętu, który umożliwi
+          uwiecznianie niezapomnianych widoków. Najpopularniejszą firmą tworzącą
+          drony jest DJI, do ich portfolio zaliczają się następujące modele.
+        </p>
+
+        <table class="table">
+          <caption class="table__title">
+            Modele dronów DJI
+          </caption>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="col">Model</th>
+            <th class="table__cell table__header" scope="col">Zasięg</th>
+            <th class="table__cell table__header" scope="col">nagrywanie 4k</th>
+            <th class="table__cell table__header" scope="col">cena</th>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">DJI Mini SE</th>
+            <td class="table__cell">300m</td>
+            <td class="table__cell"></td>
+            <td class="table__cell">2000</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">DJI Mini 2</th>
+            <td class="table__cell">800m</td>
+            <td class="table__cell">✓</td>
+            <td class="table__cell">2500</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__header" scope="row">
+              DJI Mini Pro 3
+            </th>
+            <td class="table__cell">2000m</td>
+            <td class="table__cell">✓</td>
+            <td class="table__cell">3000</td>
+          </tr>
+          <th class="table__cell table__header" scope="row" colspan="3">
+            suma
+          </th>
+          <td class="table__cell">7500</td>
+        </table>
+
+        <br />Podstawowa instrukcja uruchamiania drona
+        <ul class="list">
+          <li class="list__item">Przygotuj drona</li>
+          <ul>
+            <li class="list__item list__item--unordered">Sprawdź baterie</li>
+            <li class="list__item list__item--unordered">
+              Przygotuj aparaturę
+            </li>
+            <li class="list__item list__item--unordered">
+              Zabierz matę do lądowania
+            </li>
+          </ul>
+          <li class="list__item">sprawdź warunki pogodowe</li>
+          <li class="list__item">
+            sprawdź czy można latać w wybranym przez Ciebie miejscu
+          </li>
+        </ul>
+        <br />
+        Poniżej zamieszczam moje prace wykonane za pomocą drona DJI: <br /><img
+          src="https://cdn-icons-png.flaticon.com/512/3128/3128307.png"
+          alt="youtube"
+          width="20"
+        /><a class="link" target="_blank" href="https://youtu.be/sqcgJEUuTyM"
+          >Film z Islandii</a
+        >
+        <br /><img
+          src="https://cdn-icons-png.flaticon.com/512/3128/3128307.png"
+          alt="youtube"
+          width="20"
+        /><a class="link" target="_blank" href="https://youtu.be/chBt_KPG7ag"
+          >Prezentacja domu</a
+        >
+      </section>
+
+      <section>
+        <h2 id="games" class="section__title">Gry Komputerowe</h2>
+        <div class="section">
+          Spośród tysięcy tytułów przeróżnych gier do których mamy dostęp ja
+          najbardziej upodobałem sobie gry online.<br />Gatunki, przy których
+          spędziłem najwięcej czastu to:
+          <ul>
+            <li>MMORPG</li>
+            <li>MOBA</li>
+            <li>Strategie</li>
+          </ul>
+          Poszczególne gatunki różnią się od siebie zarówno tempem rozgrywki jak
+          i emocjami, które towarzyszą graczowi podczas gry. Pierwszym wartym
+          omówienia gatunkiem jest <b>MMORPG</b> <br />Ten typ gier polega na
+          rozbudowaniu swojego bohatera w możliwie jak najlepszy sposób,
+          znalezienie dla niego odpowiedniego ekwipunku, nauczenie się
+          przeróżnych umiejętności, które ułatwiają pokonywanie kolejnych
+          stworów i wykonywaniu zadań. Ten typ gier zapewnia rozrywkę na długie
+          godziny, jeśli miałeś marzenie aby zostać rycerzem bądź magiem a przy
+          tym móc sprawdzić swoje umiejętności w walce z innymi graczami-
+          napenwo znajdziesz coś dla siebie. <br />
+
+          <br />Gry <b>MOBA</b> Różnią się tym, że czas na rozwój postaci jest
+          znacznie ograniczony, rozgrywka polega na ogół na rywalizacji
+          drużynowej np. 5vs5 i zniszczeniu bazy przeciwnika. Mecze trwają
+          kilkanaście do kilkudziesięciu minut i każdy kolejny sprawia, że
+          zaczynamy budować naszą postać od nowa, rozgrywki są dynamiczne,
+          dostarczają masę emocji i nie mamy poczucia, że coś nas omija jeśli
+          nie jesteśmy zalogowani do gry tak jak w grach MMORPG<br />
+
+          <br />Gry <b>Strategiczne</b> Często polegają na rozgrywce Offline,
+          gdzie nie kierujemy swoim jednym bohaterem a całymi armiami żołnierzy,
+          zdobywamy oraz rozbudowujemy zamki, planujemy ataki a także obrony.
+          Gry strategiczne dostępne na rynku gwarantują nam możliwość wcielenia
+          się we władcę dowolnego państwa a także galaktyki oraz kierowaniem
+          statkami kosmicznymi czy inwazją na inne planety.<br />
+        </div>
+      </section>
+    </main>
+    <aside>
+      <ul>
+        <li><a target="_blank" href="https://www.facebook.com">facebook</a></li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/">Instagram </a>
+        </li>
+        <li><a target="_blank" href="https://www.youtube.com/">YouTube </a></li>
+        <li><a href="mailto:wojtek.dziugiel@email.com">E-mail</a></li>
+        <li><a href="tel:+48883779400">Telefon</a></li>
+      </ul>
+    </aside>
+
+<<<<<<< HEAD
+    <footer>Copyright by Wojciech Dziugieł</footer>
+  </body>
+=======
+
+
+    <footer> Copyright by Wojciech Dziugieł</footer>
+
+</body>
+
+>>>>>>> 37ad2e6b623bb0d57af2181a46bf9d06e1057d45
+</html>
