@@ -8,7 +8,7 @@
 .table__title {
     color: rgb(98, 59, 1);
     background-color: azure;
- 
+
 }
 
 .table__cell {
@@ -24,4 +24,9 @@
 
 .table__row:hover {
     background-color: rgb(137, 83, 12);
+}
+
+.table__cell--header {
+    color: rgb(42, 23, 0);
+    background-color: beige;
 }
